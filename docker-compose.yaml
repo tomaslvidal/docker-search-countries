@@ -4,7 +4,7 @@ services:
     image: node:18.17.1
     restart: always
     volumes:
-      - ./frontend:/home/documents/server
+      - ./frontend:/home/documents/front
     command: sleep infinity
     networks:
       proyect-search-countries-network:
