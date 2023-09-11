@@ -1,0 +1,34 @@
+version: '3.8'
+services:
+  frontend:
+    image: node:18.17.1
+    restart: always
+    volumes:
+      - ./frontend:/home/documents/server
+    command: sleep infinity
+    networks:
+      proyect-search-countries-network:
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    image: tomaslvidal/nestjs:10.1.17
+    restart: always
+    volumes:
+      - ./backend:/home/documents/server
+    command: sleep infinity
+    networks:
+      proyect-search-countries-network:
+
+  database:
+    image: mariadb:11.1.2
+    restart: always
+    env_file: mariadb.properties
+    networks:
+      proyect-search-countries-network:
+    ports:
+      - "8080:8080"
+
+networks:
+  proyect-search-countries-network:
