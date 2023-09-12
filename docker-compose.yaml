@@ -30,7 +30,7 @@ services:
     networks:
       proyect-search-countries-network:
     ports:
-      - "8080:8080"
+      - "8080:3306"
 
 networks:
   proyect-search-countries-network:
