@@ -20,6 +20,8 @@ services:
     command: sleep infinity
     networks:
       proyect-search-countries-network:
+    ports:
+      - "3000:3000"
 
   database:
     image: mariadb:11.1.2
