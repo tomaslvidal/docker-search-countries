@@ -13,7 +13,7 @@ export class CountriesController {
       return countries;
     }
     else {
-      throw new HttpException('La consulta debe tener al menos 3 caracteres', HttpStatus.NO_CONTENT);
+      throw new HttpException('La busqueda debe tener al menos 3 caracteres', HttpStatus.NO_CONTENT);
     }
   }
 }
