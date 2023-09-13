@@ -9,6 +9,7 @@ export class Country {
     name: string;
   
     @Column()
-    population: number;
-}
+    habitants: number;
 
+    habPercentageWithTotal: number;
+}
