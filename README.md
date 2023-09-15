@@ -42,11 +42,11 @@ npm run start:dev
 
 ### Requisitos
 
-Requisitos para Docker, distribuciones Ubuntu/Debian en lo posible
+Requisitos para Docker, usar con distribuciones Ubuntu/Debian
 
 ## Como Usarlo
 
-Una vez ejecutado los comandos, correr la url: http://localhost:4001
+Una vez ejecutado los comandos, ingresar a la url: http://localhost:4001
 
 ## Licencia
 
