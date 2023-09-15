@@ -28,17 +28,19 @@ El front de usuario permite realizar una búsqueda de países. Si el servicio re
 
 Para instalar el proyecto, clona el repositorio de GitHub y luego ejecuta los siguientes comandos sobre el repositorio:
 
-docker compose up -d
+* docker compose up -d <br>
 
 Abrir una pestaña para el Frontend y escribir:
-docker exec -it search-countries-frontend-1 bash
-cd /home/documents/front && npm run dev
+<br>
+* docker exec -it search-countries-frontend-1 bash
+<br>
+* cd /home/documents/front && npm run dev
 
 Abrir una pestaña para el Backend y escribir:
-docker exec -it search-countries-backend-1 bash
-cd /home/documents/server && npm run start:dev
-
-npm run start:dev
+<br>
+* docker exec -it search-countries-backend-1 bash
+<br>
+* cd /home/documents/server && npm run start:dev
 
 ### Requisitos
 
