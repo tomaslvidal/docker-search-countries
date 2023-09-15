@@ -1,31 +1,30 @@
 <br/>
 <p align="center">
   <h3 align="center">Search Countries</h3>
-
 </p>
 
 ![Contributors](https://img.shields.io/github/contributors/tomaslvidal/desafio_tecnico?color=dark-green) ![License](https://img.shields.io/github/license/tomaslvidal/desafio_tecnico) 
 
-## Table Of Contents
+## Indice
 
-* [About the Project](#about-the-project)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-* [Usage](#usage)
-* [License](#license)
+* [Sobre Search Countries](#sobre-search-countries)
+* [Iniciar Proyecto](#iniciar-proyecto)
+  * [Requisitos](#requisitos)
+* [Como Usarlo](#como-usarlo)
+* [Licencia](#licencia)
 
-## About The Project
+## Sobre Search Countries
 
 ![Screen Shot](https://github.com/tomaslvidal/search_table/blob/main/images/search_table.PNG?raw=true)
 
-Este proyecto consiste en un servicio de búsqueda de países hecho en NestJS y un front de usuario hecho en Next.js.
+Servicio de búsqueda de países hecho en NestJS y un front de usuario hecho en Next.js.
 
-El servicio de búsqueda recibe un parámetro de busqueda donde retorna un listado con los primeros 5 países que contengan en el nombre el valor enviado. El valor debe ser mayor o igual a 3 caracteres, en caso contrario la api retornara un código 204.
+El servicio de búsqueda recibe un input de busqueda donde retorna un listado con los primeros 5 países que contengan en el nombre el valor enviado. El valor debe ser mayor o igual a 3 caracteres, en caso contrario la api retornara un código 204.
 
 El front de usuario permite realizar una búsqueda de países. Si el servicio retorna resultados, los muestra en una tabla. En caso contrario, muestra un mensaje de "No se encontraron resultados". La tabla tiene las columnas "País", "Población" y "% Con Población Total".
 
 
-## Getting Started
+## Iniciar Proyecto
 
 Para instalar el proyecto, clona el repositorio de GitHub y luego ejecuta los siguientes comandos sobre el repositorio:
 
@@ -41,14 +40,14 @@ cd /home/documents/server && npm run start:dev
 
 npm run start:dev
 
-### Prerequisites
+### Requisitos
 
 Requisitos para Docker, distribuciones Ubuntu/Debian en lo posible
 
-## Usage
+## Como Usarlo
 
 Una vez ejecutado los comandos, correr la url: http://localhost:4001
 
-## License
+## Licencia
 
 Distributed under the MIT License. See [LICENSE](https://github.com/tomaslvidal/desafio_tecnico/blob/main/LICENSE.md) for more information.
