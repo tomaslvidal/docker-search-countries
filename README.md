@@ -35,7 +35,7 @@ docker exec -it search-countries-frontend-1 bash
 cd /home/documents/front && npm run dev
 
 Abrir una pestaña para el Backend y escribir:
-docker exec -it search-countries-frontend-1 bash
+docker exec -it search-countries-backend-1 bash
 cd /home/documents/server && npm run start:dev
 
 npm run start:dev
