@@ -7,6 +7,10 @@ async function bootstrap() {
   
   app.setGlobalPrefix("api");
 
+  app.enableCors({
+    "origin": "*",
+  });
+
   app.useGlobalPipes(
     new ValidationPipe({
       //si envia datos que no estan en la lista valida tira error
@@ -19,6 +23,6 @@ async function bootstrap() {
     })
   );
   
-  await app.listen(3000);
+  await app.listen(3050);
 }
 bootstrap();
